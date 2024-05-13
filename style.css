@@ -16,7 +16,12 @@ body,canvas{
     left: 0;
     z-index: -3;
 }
-
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: black;
+}
 .navbar-collapse{
     justify-content: end;
 }
@@ -137,7 +142,7 @@ body,canvas{
     font-size: 32px;
 }
 .icons1 .fa-brands:hover{
-    scale: 110% ;
+    scale: 120% ;
 }
 
 .typed-cursor{
@@ -398,7 +403,7 @@ a:hover {
     font-size: 32px;
 }
 .icons2 .fa-brands:hover{
-    scale: 110%;
+    scale: 120%;
 }
 .section5 .colr{
     color: #FABD74;
